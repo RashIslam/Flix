@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="143" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gIv-vq-K9u">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="143" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gIv-vq-K9u">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="143" id="v37-1B-FD7" customClass="MovieCell" customModule="Flix" customModuleProvider="target">
@@ -73,6 +72,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gIv-vq-K9u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="A7i-Pf-l0o"/>
+                            <constraint firstItem="gIv-vq-K9u" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F9Z-kg-2CV"/>
+                            <constraint firstItem="gIv-vq-K9u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ifL-Lk-esY"/>
+                            <constraint firstItem="gIv-vq-K9u" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="txc-cF-amY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Movies" id="HGm-zE-GY1"/>
                     <connections>
