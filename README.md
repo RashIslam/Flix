@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/EOfblch.gif" width=250><br>
+!["FlixPt2"](https://github.com/Slizero/Flix/blob/main/FlixPt2.gif)
 
 ### Notes
 The main challenge was figuring out how to resize the posters in the Superhero view to the size I set in the code. Turns out I had to estimate size to None rather than Automatic.
