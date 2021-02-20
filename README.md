@@ -35,7 +35,7 @@ The main challenge was figuring out how to resize the posters in the Superhero v
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-!["Flix"](https://github.com/Slizero/Flix/blob/main/149087728_489888999071338_8351618638956177454_n.gif)
+!["FlixPt1"](https://github.com/Slizero/Flix/blob/main/FlixPart1.gif)
 ### Notes
 A big challenge I had with creating this app was understanding how the different functions interact with each other, but hopefully will learn it in future projects.
 The biggest challenge however was adjusting constraints f
